@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		632F63C956C180180389DA87 /* libPods-ChangeFont.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0FB9546686E6B8B241CE5F49 /* libPods-ChangeFont.a */; };
 		7EA78C99235856C100D7B92F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78C98235856C100D7B92F /* AppDelegate.m */; };
 		7EA78C9C235856C100D7B92F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78C9B235856C100D7B92F /* ViewController.m */; };
 		7EA78C9F235856C100D7B92F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA78C9D235856C100D7B92F /* Main.storyboard */; };
 		7EA78CA1235856C600D7B92F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EA78CA0235856C600D7B92F /* Assets.xcassets */; };
 		7EA78CA4235856C600D7B92F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EA78CA2235856C600D7B92F /* LaunchScreen.storyboard */; };
 		7EA78CA7235856C600D7B92F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78CA6235856C600D7B92F /* main.m */; };
+		7EA78CAF235856ED00D7B92F /* NextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78CAE235856ED00D7B92F /* NextViewController.m */; };
+		7EA78CB52358634A00D7B92F /* UILabel+ChangeFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78CB32358634A00D7B92F /* UILabel+ChangeFont.m */; };
+		7EA78CB62358634A00D7B92F /* ChangeFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78CB42358634A00D7B92F /* ChangeFontManager.m */; };
+		7EA78CB923586DB200D7B92F /* FMFontManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78CB723586DB200D7B92F /* FMFontManager.m */; };
+		7EA78CBC235871A200D7B92F /* FMChooseFontView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78CBA235871A100D7B92F /* FMChooseFontView.m */; };
+		7EA78CBF2358751B00D7B92F /* UIFont+Addtion.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA78CBE2358751B00D7B92F /* UIFont+Addtion.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0FB9546686E6B8B241CE5F49 /* libPods-ChangeFont.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ChangeFont.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1C0FEB7F74C2925AF50C472D /* Pods-ChangeFont.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangeFont.release.xcconfig"; path = "Target Support Files/Pods-ChangeFont/Pods-ChangeFont.release.xcconfig"; sourceTree = "<group>"; };
+		3980D98B29CC19D6F35F76B1 /* Pods-ChangeFont.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChangeFont.debug.xcconfig"; path = "Target Support Files/Pods-ChangeFont/Pods-ChangeFont.debug.xcconfig"; sourceTree = "<group>"; };
 		7EA78C94235856C100D7B92F /* ChangeFont.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChangeFont.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EA78C97235856C100D7B92F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7EA78C98235856C100D7B92F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +36,18 @@
 		7EA78CA3235856C600D7B92F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EA78CA5235856C600D7B92F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7EA78CA6235856C600D7B92F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7EA78CAD235856ED00D7B92F /* NextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = NextViewController.h; sourceTree = "<group>"; };
+		7EA78CAE235856ED00D7B92F /* NextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = NextViewController.m; sourceTree = "<group>"; };
+		7EA78CB12358634A00D7B92F /* UILabel+ChangeFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UILabel+ChangeFont.h"; sourceTree = "<group>"; };
+		7EA78CB22358634A00D7B92F /* ChangeFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChangeFontManager.h; sourceTree = "<group>"; };
+		7EA78CB32358634A00D7B92F /* UILabel+ChangeFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UILabel+ChangeFont.m"; sourceTree = "<group>"; };
+		7EA78CB42358634A00D7B92F /* ChangeFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChangeFontManager.m; sourceTree = "<group>"; };
+		7EA78CB723586DB200D7B92F /* FMFontManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMFontManager.m; sourceTree = "<group>"; };
+		7EA78CB823586DB200D7B92F /* FMFontManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMFontManager.h; sourceTree = "<group>"; };
+		7EA78CBA235871A100D7B92F /* FMChooseFontView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FMChooseFontView.m; sourceTree = "<group>"; };
+		7EA78CBB235871A200D7B92F /* FMChooseFontView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FMChooseFontView.h; sourceTree = "<group>"; };
+		7EA78CBD2358751B00D7B92F /* UIFont+Addtion.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFont+Addtion.h"; sourceTree = "<group>"; };
+		7EA78CBE2358751B00D7B92F /* UIFont+Addtion.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFont+Addtion.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +55,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				632F63C956C180180389DA87 /* libPods-ChangeFont.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		37D7F98BAD1FD1EE1FBFA065 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3980D98B29CC19D6F35F76B1 /* Pods-ChangeFont.debug.xcconfig */,
+				1C0FEB7F74C2925AF50C472D /* Pods-ChangeFont.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		7EA78C8B235856C100D7B92F = {
 			isa = PBXGroup;
 			children = (
 				7EA78C96235856C100D7B92F /* ChangeFont */,
 				7EA78C95235856C100D7B92F /* Products */,
+				37D7F98BAD1FD1EE1FBFA065 /* Pods */,
+				DF765A478D8AF6188240742A /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,10 +92,15 @@
 		7EA78C96235856C100D7B92F /* ChangeFont */ = {
 			isa = PBXGroup;
 			children = (
+				7EA78CB0235862B100D7B92F /* Tools */,
 				7EA78C97235856C100D7B92F /* AppDelegate.h */,
 				7EA78C98235856C100D7B92F /* AppDelegate.m */,
 				7EA78C9A235856C100D7B92F /* ViewController.h */,
 				7EA78C9B235856C100D7B92F /* ViewController.m */,
+				7EA78CAD235856ED00D7B92F /* NextViewController.h */,
+				7EA78CAE235856ED00D7B92F /* NextViewController.m */,
+				7EA78CBB235871A200D7B92F /* FMChooseFontView.h */,
+				7EA78CBA235871A100D7B92F /* FMChooseFontView.m */,
 				7EA78C9D235856C100D7B92F /* Main.storyboard */,
 				7EA78CA0235856C600D7B92F /* Assets.xcassets */,
 				7EA78CA2235856C600D7B92F /* LaunchScreen.storyboard */,
@@ -71,6 +110,29 @@
 			path = ChangeFont;
 			sourceTree = "<group>";
 		};
+		7EA78CB0235862B100D7B92F /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				7EA78CB823586DB200D7B92F /* FMFontManager.h */,
+				7EA78CB723586DB200D7B92F /* FMFontManager.m */,
+				7EA78CB22358634A00D7B92F /* ChangeFontManager.h */,
+				7EA78CB42358634A00D7B92F /* ChangeFontManager.m */,
+				7EA78CB12358634A00D7B92F /* UILabel+ChangeFont.h */,
+				7EA78CB32358634A00D7B92F /* UILabel+ChangeFont.m */,
+				7EA78CBD2358751B00D7B92F /* UIFont+Addtion.h */,
+				7EA78CBE2358751B00D7B92F /* UIFont+Addtion.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		DF765A478D8AF6188240742A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0FB9546686E6B8B241CE5F49 /* libPods-ChangeFont.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +140,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7EA78CAA235856C600D7B92F /* Build configuration list for PBXNativeTarget "ChangeFont" */;
 			buildPhases = (
+				4C3070278A22852FEB64A0BA /* [CP] Check Pods Manifest.lock */,
 				7EA78C90235856C100D7B92F /* Sources */,
 				7EA78C91235856C100D7B92F /* Frameworks */,
 				7EA78C92235856C100D7B92F /* Resources */,
@@ -136,12 +199,43 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		4C3070278A22852FEB64A0BA /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ChangeFont-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7EA78C90235856C100D7B92F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				7EA78C9C235856C100D7B92F /* ViewController.m in Sources */,
+				7EA78CAF235856ED00D7B92F /* NextViewController.m in Sources */,
+				7EA78CB62358634A00D7B92F /* ChangeFontManager.m in Sources */,
+				7EA78CBF2358751B00D7B92F /* UIFont+Addtion.m in Sources */,
+				7EA78CBC235871A200D7B92F /* FMChooseFontView.m in Sources */,
+				7EA78CB52358634A00D7B92F /* UILabel+ChangeFont.m in Sources */,
+				7EA78CB923586DB200D7B92F /* FMFontManager.m in Sources */,
 				7EA78CA7235856C600D7B92F /* main.m in Sources */,
 				7EA78C99235856C100D7B92F /* AppDelegate.m in Sources */,
 			);
@@ -283,6 +377,7 @@
 		};
 		7EA78CAB235856C600D7B92F /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3980D98B29CC19D6F35F76B1 /* Pods-ChangeFont.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,6 +394,7 @@
 		};
 		7EA78CAC235856C600D7B92F /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1C0FEB7F74C2925AF50C472D /* Pods-ChangeFont.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
