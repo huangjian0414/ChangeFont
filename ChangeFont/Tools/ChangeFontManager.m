@@ -44,6 +44,7 @@
     if (!exist_control) {
         [self.controls setObject:control forKey:hashKey];
     }
+    NSLog(@"addControls %@",self.controls);
 }
 
 -(void)removeControlWithHash:(NSUInteger)hash
@@ -53,6 +54,7 @@
     if (exist_control) {
         [self.controls removeObjectForKey:hasKey];
     }
+    NSLog(@"removeControlWithHash %@",self.controls);
 }
 
 -(id)fetchControlWithHash:(NSUInteger)hash{

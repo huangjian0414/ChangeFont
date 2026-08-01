@@ -231,4 +231,7 @@
     v.completion = completion;
     [[UIApplication sharedApplication].keyWindow addSubview:v];
 }
+-(void)dealloc{
+    NSLog(@" dealloc - %@",self);
+}
 @end
